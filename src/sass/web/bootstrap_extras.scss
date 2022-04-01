@@ -1,0 +1,20 @@
+$size: 1rem;
+
+a.card, a.card-body, a.card-footer, a.card-meta {
+	color: inherit;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.navbar-nav.with-line {
+	li a:after {
+		content: "|";
+		display: inline-block;
+		margin-left: 10px;
+	}
+	li:last-child a:after {
+	 	display: none;
+	}
+}
