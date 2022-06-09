@@ -140,6 +140,9 @@ module.exports = {
                 'height': 'auto 100%',
                 'width': '100% auto',
             },
+            gridTemplateColumns: {
+                'center': '1fr auto 1fr',
+            }
         },
     },
     variants: {
@@ -150,5 +153,6 @@ module.exports = {
     plugins: [
         require('@tailwindcss/aspect-ratio'),
         require('@tailwindcss/forms'),
+        require('tailwindcss-textshadow')
     ],
 }

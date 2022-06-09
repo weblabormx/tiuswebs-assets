@@ -23,6 +23,7 @@
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.49.9",
         "sass-loader": "^12.1.0",
-        "tailwindcss": "2.0.1"
+        "tailwindcss": "2.0.1",
+        "tailwindcss-textshadow": "^2.1.3"
     }
 }
