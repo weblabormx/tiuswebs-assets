@@ -142,6 +142,9 @@ module.exports = {
             },
             gridTemplateColumns: {
                 'center': '1fr auto 1fr',
+            },
+            zIndex: {
+                '-10': '-10',
             }
         },
     },
