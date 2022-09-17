@@ -32,3 +32,5 @@
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
 @import "web/tailwind_extras";
+
+[x-cloak] { display: none !important; }
