@@ -9,6 +9,7 @@
     "scripts": {
         "view": "tailwind-config-viewer -o",
         "build": "npx mix -p",
+        "print": "npx mix -p --mix-config print.mix",
         "dev": "npx mix"
     },
     "dependencies": {},

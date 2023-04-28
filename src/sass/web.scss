@@ -28,9 +28,7 @@
 // @import "web/landkit_shape";
 // @import "web/avatar";
 
-@import "~tailwindcss/base";
-@import "~tailwindcss/components";
-@import "~tailwindcss/utilities";
+@import "tailwind";
 @import "web/tailwind_extras";
 
 [x-cloak] { display: none !important; }
