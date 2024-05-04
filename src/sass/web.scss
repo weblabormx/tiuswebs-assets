@@ -31,4 +31,15 @@
 @import "tailwind";
 @import "web/tailwind_extras";
 
-[x-cloak] { display: none !important; }
+[x-cloak] {
+    display: none !important;
+}
+
+details>summary {
+    list-style: none;
+}
+
+details>summary::marker,
+details>summary::-webkit-details-marker {
+    display: none;
+}
